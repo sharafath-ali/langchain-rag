@@ -1,0 +1,26 @@
+{
+  "name": "simple-rag-document-qa",
+  "version": "0.1.0",
+  "description": "Simple RAG pipeline using LangChain.js",
+  "main": "rag-pdf-qa.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/in-tech-gration/simple-rag-document-qa.git"
+  },
+  "author": "kostasx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/in-tech-gration/simple-rag-document-qa/issues"
+  },
+  "homepage": "https://github.com/in-tech-gration/simple-rag-document-qa#readme",
+  "dependencies": {
+    "@langchain/community": "^0.2.27",
+    "@langchain/ollama": "^0.0.4",
+    "chromadb": "^1.8.1",
+    "pdf-parse": "^1.1.1"
+  }
+}
