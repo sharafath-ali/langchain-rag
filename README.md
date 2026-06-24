@@ -6,6 +6,8 @@ This repository contains the JavaScript version of the python RAG implementation
 
 - Here's a [detailed tutorial](https://js.langchain.com/v0.2/docs/tutorials/rag) about building a RAG app from the `LangChain` docs.
 
+- Check out our [Vector Search & Embeddings Q&A Guide](file:///c:/Users/sharafath/Downloads/LangChain-RAG/vector_search_qa.md) for a detailed explanation of vectors, embedding space, and search mechanics.
+
 - Uses `LangChain.js v0.2`
 
 ![](./assets/RAG.Indexing.png)

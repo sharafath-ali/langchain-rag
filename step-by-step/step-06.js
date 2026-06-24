@@ -68,6 +68,7 @@ const pdfQa = await new PdfQA({
 
 console.log( "Embeddings model: ", pdfQa.db.embeddings.model ); // all-minilm:latest
 console.log( "# of embeddings: ", pdfQa.db.memoryVectors.length ); // 14 
+console.log('pdf documents: ', pdfQa.db);
 
 // Query the Vector store directly: https://js.langchain.com/v0.2/docs/integrations/vectorstores/memory/#query-directly
 const similaritySearchResults = await pdfQa.db.similaritySearch("File type associations",2);
